@@ -1,0 +1,14 @@
+#kysose C# gitignore base v1
+obj/
+bin/
+.vs/
+#since this is a repository of a collection of C# source codes, every obj, bin and .vs -folder is ignored regardless of path
+#if use obj/* then every obj -folder is included, only their content would be ignored, so github would ave many empty obj -folders
+
+
+#---- if you added this .gitignore after you pushed without a .gitignore clean the repository as follows:
+#in GIT BASH
+#git rm -r --cached .    <- remove repo content, local is still safe
+#git add . <- add everything back, this time including the .gitignore
+#git commit -m "Added .gitignore, cleaned ignored files from the repository" <- commit the clean
+#git push
