@@ -31,3 +31,25 @@ Here's the most important things to remember when working with arrays:
     If you attempt to access an index outside of the boundary of the array, you get a run time exception.
     The Length property gives you a programmatic way to determine the number of elements in an array.
 */
+
+// ------ FOREACH ------
+
+string[] names = { "Rowena", "Robin", "Bao" };
+foreach (string name in names)
+{
+    Console.WriteLine(name);
+}
+
+//----------------------
+
+int[] inventory = {200, 450, 700, 175, 250};
+int sum = 0;
+int bin = 0;
+foreach (int items in inventory)
+{
+    sum += items;
+    bin++;
+    System.Console.WriteLine($"Bin {bin} = {items} items (Running total: {sum})");
+}
+
+System.Console.WriteLine($"We have {sum} items in inventory.");
