@@ -1,4 +1,4 @@
-﻿// 	Add logic to C# console applications (Get started with C#, Part 3) 
+﻿// 		Evaluate Boolean expressions to make decisions in C# 
 
 //string value1 = " a";
 //string value2 = "A ";
