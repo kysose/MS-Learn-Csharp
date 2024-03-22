@@ -334,6 +334,7 @@ Take a minute to consider the choice between a for statement and a foreach state
 The goal is to iterate through each animal in the ourAnimals array one at a time. So why not use a foreach loop? After all, 
 you know that the foreach statement is designed for cases when you want to iterate through each item in an array of items.
 The reason why you don't use a foreach loop in this situation is because the ourAnimals array is multidimensional array. 
+
 Since ourAnimals is a multidimensional string array, each element contained within ourAnimals is a separate item of type string. 
 If you used a foreach loop to iterate through ourAnimals, the foreach would recognize each string as a separate item 
 in a list of 48 string items (8 x 6 = 48). The foreach statement wouldn't process the two array dimensions separately. 
